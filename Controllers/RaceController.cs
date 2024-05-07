@@ -17,5 +17,10 @@ namespace RunGroopApp.Controllers
             List<Race> races = _context.Races.ToList();
             return View(races);
         }
+
+        //public IActionResult Detail(int id)
+        //{
+            
+        //}
     }
 }
